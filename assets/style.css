@@ -1,0 +1,559 @@
+@charset "UTF-8";
+code {
+    color: #3e999f;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
+    display: block;
+}
+audio, canvas, video {
+    display: inline-block;
+}
+audio:not([controls]) {
+    display: none;
+    height: 0;
+}
+[hidden] {
+    display: none;
+}
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%}
+body {
+    margin: 0;
+}
+a:focus {
+    outline: thin dotted;
+}
+a:active, a:hover {
+    outline: 0;
+}
+h1 {
+    font-size: 2em;
+    margin: 0.67em 0;
+}
+abbr[title] {
+    border-bottom: 1px dotted;
+}
+b, strong {
+    font-weight: 500;
+}
+dfn {
+    font-style: italic;
+}
+hr {
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    height: 0;
+}
+mark {
+    background: #ff0;
+    color: #000;
+}
+code, kbd, pre, samp {
+    font-family: monospace, serif;
+    font-size: 1em;
+}
+pre {
+    white-space: pre-wrap;
+}
+q {
+    quotes: "\201C" "\201D" "\2018" "\2019"}
+small {
+    font-size: 80%}
+sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+}
+sup {
+    top: -0.5em;
+}
+sub {
+    bottom: -0.25em;
+}
+img {
+    border: 0;
+}
+svg:not(:root) {
+    overflow: hidden;
+}
+figure {
+    margin: 0;
+}
+fieldset {
+    border: 1px solid silver;
+    margin: 0 2px;
+    padding: 0.35em 0.625em 0.75em;
+}
+legend {
+    border: 0;
+    padding: 0;
+}
+button, input, select, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    margin: 0;
+}
+button, input {
+    line-height: normal;
+}
+button, select {
+    text-transform: none;
+}
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+button[disabled], html input[disabled] {
+    cursor: default;
+}
+input[type="checkbox"], input[type="radio"] {
+    box-sizing: border-box;
+    padding: 0;
+}
+input[type="search"] {
+    -webkit-appearance: textfield;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+}
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
+    -webkit-appearance: none;
+}
+button::-moz-focus-inner, input::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+}
+textarea {
+    overflow: auto;
+    vertical-align: top;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+html {
+    font-size: 62.5%}
+body {
+    font-family: "omnes-pro",sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.8em;
+    padding: 14% 0;
+    background-color: #34495E;
+    color: #ECF0F1;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+p[data-pullquote], h2{
+    font-style: italic;
+    font-family: "omnes-pro",sans-serif;
+}
+h1 {
+    margin-bottom: 5rem !important;
+    text-shadow: 0.15rem 0.15rem 0 #fbfbfb, 0.35rem 0.35rem 0 #dadada;
+    color: #000;
+}
+h2 {
+    font-style: italic;
+    font-weight: normal;
+    font-size: 2.8rem;
+    line-height: 4.4rem;
+}
+h2 a {
+    text-decoration: none;
+    color: #000;
+    border-bottom: 0.3rem solid #dadada;
+}
+h2 a:hover {
+    border-bottom: 0.3rem solid blue;
+}
+h2 a:visited {
+    color: #000;
+}
+a {
+    color: #2980B9;
+    -webkit-transition: color 0.1s ease-in-out 0s, border 0.1s ease-in-out;
+    -moz-transition: color 0.1s ease-in-out 0s, border 0.1s ease-in-out;
+    transition: color 0.1s ease-in-out 0s, border 0.1s ease-in-out;
+}
+a:visited {
+    color: #2980B9;
+}
+a:hover {
+    color: #3498DB;
+}
+img {
+    max-width: 100%;
+    height: auto;
+}
+blockquote {
+    border-left: 0.3rem solid #dadada;
+    margin-left: 0;
+    padding-left: 2rem;
+    margin-right: 0;
+    font-style: italic;
+}
+figure img {
+    border: 1px solid #f1f1f1;
+    width: 100%;
+    height: auto;
+}
+figure figcaption {
+    font-size: 1.2rem;
+    text-align: center;
+    font-style: italic;
+    line-height: 1.4em;
+}
+hr {
+    border: none;
+    height: 1px;
+    width: 70%;
+    background: #34495E;
+}
+pre code {
+    display: block;
+    padding: 1rem 2rem;
+    line-height: 1.6em;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+}
+code {
+    font-family: "source-code-pro", monospace;
+    font-size: 80%;
+    background: #fff;
+    border: 1px solid #dadada;
+    padding: 2px 5px;
+    border-radius: 3px;
+}
+p code {
+    line-height: 1rem;
+}
+small {
+    font-size: 1.2rem;
+    line-height: 1.6em;
+}
+p[data-pullquote] {
+    display: none;
+}
+p[data-pullquote]:before {
+    content: attr(data-pullquote);
+    float: right;
+    text-align: center;
+    width: 15rem;
+    font-style: italic;
+    margin: 0 -10% 0.5em 30px;
+    padding: 0;
+    font-size: 2rem;
+    color: #f46801;
+}
+p.pull-left[data-pullquote]:before {
+    float: left;
+    margin: 0 30px 0.5em -5%}
+.content {
+    width: 90%;
+    max-width: 50rem;
+    margin: 0 auto;
+}
+
+#topbar {
+    padding: 0;
+    font-size: 16px;
+    height: 67px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #34495E;
+    z-index: 1;
+    max-height: 100%;
+    overflow-y: auto;
+}
+#topbar:before {
+    content: '';
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    margin-right: -0.25em;
+}
+#topbar .profilepic {
+    position: absolute;
+    left: 5%;
+    top: 0;
+    height: 40px;
+}
+#topbar .profilename {
+    font-family: "omnes-pro",sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #ECF0F1;
+    font-weight: normal;
+    font-style: normal;
+    display: inline;
+}
+#topbar .profilename a {
+    text-shadow: none;
+    border: none;
+}
+#topbar .profilename a:hover {
+    color: #BDC3C7;
+}
+#topbar .profilewrap {
+    display: inline;
+    position: relative;
+    top: 13px;
+    margin-right: 10px;
+}
+#topbar img {
+    border-radius: 1000px;
+    width: 40px;
+    height: 40px;
+    display: inline;
+}
+#topbar ul {
+    list-style: none;
+    margin: -50rem 0 5rem 0;
+    padding: 0;
+}
+#topbar .sociallinks {
+    position: absolute;
+    right: 6%;
+    top: 22px;
+    cursor: hand;
+    cursor: pointer;
+}
+
+#topbar .sociallinks a{
+    font-size: 24px;
+    color: #ECF0F1;
+    text-decoration: none;
+    padding-left: 5px;
+}
+
+#feature{
+    background-color: #2C3E50; 
+    padding: 20px 0px;
+}
+
+.about h1 {
+    display: none;
+}
+
+.about p:first-of-type {
+    
+}
+
+@media only screen and (max-width : 320px) {
+    .sociallinks a{
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (min-width: 620px) {
+    ul, ol {
+    padding-left: 0;
+}
+
+figure, .about p:first-of-type {
+    margin-left: -8%;
+    width: 116%
+}
+
+.profilename {
+    margin-right: 20px;
+}
+.about p:first-of-type {
+    font-size: 4rem;
+    line-height: 4rem;
+    text-align: center;
+}
+
+}@media only screen and (min-width: 760px) {
+    html {
+    font-size: 75%}
+}@media only screen and (min-width: 850px) {
+    html {
+    font-size: 85%}
+body {
+    padding: 6% 0;
+}
+#topbar {
+    height: 100px;
+}
+#topbar .profilepic {
+    top: 15px;
+}
+#topbar ul.open {
+    margin-top: 5rem;
+}
+#topbar .sociallinks {
+    top: 34px;
+}
+.content {
+    width: 50rem;
+    max-width: auto;
+}
+.ico-link:before {
+    margin-left: -3rem;
+}
+figure, .posttitle, .about p:first-of-type {
+    margin-left: -10%;
+    width: 120%}
+p[data-pullquote] {
+    display: block;
+}
+}@media only screen and (min-width: 1250px) {
+    .content {
+    width: 50rem;
+    max-width: auto;
+}
+figure, .about p:first-of-type {
+    margin-left: -23%;
+    width: 146%}
+.related li {
+    width: 28%;
+    display: inline-block;
+    vertical-align: top;
+    margin: 2% 2%}
+}@media only screen and (min-width: 1400px) {
+    
+#topbar .profilepic {
+    left: 2.5%;
+    pointer-events: visible;
+}
+#topbar .sociallinks {
+    right: 2.5%;
+    pointer-events: visible;
+}
+#topbar.open {
+    background: #fff;
+    background: rgba(255, 255, 255, 0.95);
+}
+#topbar.open a {
+    pointer-events: visible;
+}
+}@media only screen and (min-width: 1600px) {
+    #topbar {
+    height: 120px;
+}
+#topbar .sociallinks {
+    right: 70px;
+    top: 60px;
+}
+#topbar .profilepic {
+    left: 70px;
+    top: 38px;
+}
+}@media only screen and (min-width: 2100px) {
+    html {
+    font-size: 100%}
+}
+
+@font-face {
+    font-family: 'social-font';
+    src:url('fonts/social-font.eot');
+    src:url('fonts/social-font.eot?#iefix') format('embedded-opentype'),
+        url('fonts/social-font.woff') format('woff'),
+        url('fonts/social-font.ttf') format('truetype'),
+        url('fonts/social-font.svg#social-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Use the following CSS code if you want to use data attributes for inserting your icons */
+[data-icon]:before {
+    font-family: 'social-font';
+    content: attr(data-icon);
+    speak: none;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Use the following CSS code if you want to have a class per icon */
+/*
+Instead of a list of all class selectors,
+you can use the generic selector below, but it's slower:
+[class*="icon-"] {
+*/
+.icon-instagram, .icon-linkedin, .icon-twitter, .icon-vimeo2, .icon-github, .icon-github-2, .icon-github-3, .icon-forrst, .icon-forrst-2, .icon-github-4, .icon-apple, .icon-skype, .icon-facebook, .icon-google-plus, .icon-google-plus-2, .icon-twitter-2, .icon-facebook-2, .icon-vimeo, .icon-google-plus-3, .icon-facebook-3, .icon-twitter-3, .icon-vimeo-2 {
+    font-family: 'social-font';
+    speak: none;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+}
+.icon-instagram:before {
+    content: "\e000";
+}
+.icon-linkedin:before {
+    content: "\e001";
+}
+.icon-twitter:before {
+    content: "\e002";
+}
+.icon-vimeo2:before {
+    content: "\e003";
+}
+.icon-github:before {
+    content: "\e005";
+}
+.icon-github-2:before {
+    content: "\e004";
+}
+.icon-github-3:before {
+    content: "\e006";
+}
+.icon-forrst:before {
+    content: "\e007";
+}
+.icon-forrst-2:before {
+    content: "\e008";
+}
+.icon-github-4:before {
+    content: "\e009";
+}
+.icon-apple:before {
+    content: "\e00a";
+}
+.icon-skype:before {
+    content: "\e00b";
+}
+.icon-facebook:before {
+    content: "\e00c";
+}
+.icon-google-plus:before {
+    content: "\e00e";
+}
+.icon-google-plus-2:before {
+    content: "\e00f";
+}
+.icon-twitter-2:before {
+    content: "\e010";
+}
+.icon-facebook-2:before {
+    content: "\e011";
+}
+.icon-vimeo:before {
+    content: "\e012";
+}
+.icon-google-plus-3:before {
+    content: "\e013";
+}
+.icon-facebook-3:before {
+    content: "\e00d";
+}
+.icon-twitter-3:before {
+    content: "\e014";
+}
+.icon-vimeo-2:before {
+    content: "\e015";
+}
