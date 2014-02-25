@@ -32,18 +32,41 @@
 	<div class="container" id="feature">
 		<div class="content">
 			<h1 class="posttitle">About</h1>
-			<p>Hey, I&#8217;m Myles Beardsmore, a PHP Developer based in New Zealand. I build innovative and creative products.</p>
+			<p>I&#8217;m Myles, a PHP Web Developer.<br />I build innovative, creative and responsive web applications!</p>
 		</div>
 	</div>
-	<div class="container">
+	<div class="container middle">
 		<div class="content">
 			<p></p>
 			<p><strong>Where can you find me?</strong><br />
-				You can tweet me on <a href='http://www.twitter.com/mediabeastnz/'>Twitter</a>, check out my activity on <a href="https://github.com/mediabeastnz">Github</a>, view photographs I've taken on <a href="http://instagram.com/mediabeastnz">Instagram</a> or look at my profile on <a href="http://linkedin.com/pub/myles-beardsmore/37/49b/889">LinkedIn</a>.</p>
+				You can tweet me on <a href='http://www.twitter.com/mediabeastnz/'>Twitter</a>, view my public activity on <a href="https://github.com/mediabeastnz">Github</a>, view photos I've taken on <a href="http://instagram.com/mediabeastnz">Instagram</a> or look at my profile on <a href="http://linkedin.com/pub/myles-beardsmore/37/49b/889">LinkedIn</a>.</p>
 
-			<p>If you would like to work together, send me a <a href="mailto:mediabeastnz@gmail.com">message</a>.</p>
+			<p>Have a project in mind? Simply click the giant button below.</p>
+
+			<a href="mailto:mediabeastnz@gmail.com" class="giant-button">Lets Talk!</a>
 		</div>
 	</div>
+
+	<div class="footer">
+		&copy; 2014 Myles Beardsmore. All Rights Reserved.
+	</div>
+
+	<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script>
+		(function(){
+		    var words = [
+		        'responsive websites',
+		        'website designs'
+		        ], i = 0;
+
+		    setInterval(function(){
+		        $('#products').fadeOut(function(){
+		            $(this).html(words[i=(i+1)%words.length]).fadeIn();
+		        });
+		    }, 2000);
+
+		})();
+	</script>
 
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
