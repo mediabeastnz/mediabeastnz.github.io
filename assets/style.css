@@ -274,7 +274,7 @@ p.pull-left[data-pullquote]:before {
     background-color: #3498DB;
     z-index: 1;
     max-height: 100%;
-    overflow-y: auto;
+    overflow-y: hidden;
 }
 #topbar:before {
     content: '';
