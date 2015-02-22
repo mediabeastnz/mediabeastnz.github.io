@@ -1,0 +1,117 @@
+@import "settings";
+// @import "foundation";
+
+// Or selectively include components
+@import
+//   "foundation/components/accordion",
+//   "foundation/components/alert-boxes",
+//   "foundation/components/block-grid",
+//   "foundation/components/breadcrumbs",
+"foundation/components/button-groups",
+"foundation/components/buttons",
+//   "foundation/components/clearing",
+//   "foundation/components/dropdown",
+//   "foundation/components/dropdown-buttons",
+//   "foundation/components/flex-video",
+//   "foundation/components/forms",
+"foundation/components/grid",
+//   "foundation/components/inline-lists",
+//   "foundation/components/joyride",
+//   "foundation/components/keystrokes",
+//   "foundation/components/labels",
+//   "foundation/components/magellan",
+//   "foundation/components/orbit",
+//   "foundation/components/pagination",
+//   "foundation/components/panels",
+//   "foundation/components/pricing-tables",
+//   "foundation/components/progress-bars",
+//   "foundation/components/reveal",
+//   "foundation/components/side-nav",
+//   "foundation/components/split-buttons",
+//   "foundation/components/sub-nav",
+//   "foundation/components/switches",
+//   "foundation/components/tables",
+//   "foundation/components/tabs",
+//   "foundation/components/thumbs",
+//   "foundation/components/tooltips",
+//   "foundation/components/top-bar",
+"foundation/components/type",
+//   "foundation/components/offcanvas",
+"foundation/components/visibility";
+
+@mixin transition($transition-property, $transition-time, $method) {
+   -webkit-transition: $transition-property $transition-time $method;
+   -moz-transition: $transition-property $transition-time $method;
+   -ms-transition: $transition-property $transition-time $method;
+   -o-transition: $transition-property $transition-time $method;
+   transition: $transition-property $transition-time $method;
+}
+
+h1{
+  font-weight: 700;
+}
+
+h2{
+  font-weight: 600;
+  font-style: italic;
+}
+
+p{
+  font-weight: 400;
+}
+
+h2, p{
+  color: $white;
+}
+
+#myles{
+  background-size: 100% 100%;
+  -webkit-background-size: 100% 100%;
+  background-color: $primary-color;
+  background-image: url('../images/me.jpg');
+  background-size: 100% 100%;
+  border-radius: 50%;
+  border: 2px solid rgb(52, 219, 173);
+  height: rem-calc(200);
+  opacity: 1;
+  width: rem-calc(200);
+  display: inline-block;
+  margin-top: rem-calc(100);
+}
+
+footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+
+  .button-group{
+    width: 100%;
+    position: relative;
+    border-left: rem-calc(20) solid $body-bg;
+    border-right: rem-calc(20) solid $body-bg;
+
+    .button{
+      border: none !important;
+      border-top: rem-calc(1) solid rgba(0,0,0,0.2) !important;
+      border-bottom: rem-calc(3) solid rgba(238,238,238,1) !important;
+      color: $primary-color;
+      font-weight: 600;
+      @include transition(all, 0.4s, cubic-bezier(0.77, 0, 0.175, 1));
+    }
+
+    .button:hover{
+      border-bottom: rem-calc(3) solid $primary-color !important;
+    }
+  }
+
+  .button{
+    margin-bottom: 0;
+  }
+}
+
+@media #{$small-only} {
+  footer{
+    margin-top: rem-calc(100);
+    position: static;
+  }
+}
